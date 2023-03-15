@@ -1,0 +1,199 @@
+
+body{
+    background-color: #C9EEFF;
+    font-family: 'Poppins', sans-serif;
+}
+
+.calculator-grid {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: minmax(120px, auto) repeat(5, 100px);
+    gap: 5px;
+    }
+
+
+
+    .calculator-grid > button {
+        cursor: pointer;
+        font-size: 2rem;
+        border: 1px, solid #ffcdcd;
+        outline: none;
+        background-color: #413543;
+        border-radius: 05%;
+        color: #F6F1F1;
+        transition: all 0.2s;
+      }
+  
+        .calculator-grid > button:hover {
+          background-color: #2D2727;
+        }
+
+        .span-two {
+            grid-column: span 2;
+            background-color: rgba(139, 0, 139, 0.8);
+          }
+
+         .calculator-grid .operation{
+            background-color: #FF0000;
+            transition: all 0.2s;
+            
+          }
+
+          .calculator-grid .operation:hover{
+            background-color: #BD1616;
+          }
+    
+          #AC-btn{
+            background-color: #444444;
+          }
+
+          #AC-btn:hover{
+            background-color: #6d6d6d
+          }
+
+          .output{
+            grid-column: 1 / -1;
+            background-color: rgba(0, 0, 0, 0.75);
+            color: #f6f1f1;
+            display: flex;
+            align-items: flex-end;
+            border-radius: 2%;
+            justify-content: space-around;
+            flex-direction: column;
+            padding: 10px;
+            word-wrap: break-word;
+            word-break: break-all;
+          }
+
+          .output .previous-operand{
+            color: rgba(255,255, 255, 0.75);
+            font-size: 1.5rem;
+          }
+    
+          .output .current-operand{
+            color: #f6f1f1;
+            font-size: 2.5rem;
+          }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        /*Eu gostaria de deixar aqui que não importa o quanto eu tente ou deixe de tentar eu nunca vou ser o suficiênte,
+         talvez eu realmente deveria ter me jogado quando eu tive a chance, eu odeio não coneseguir fazer nada, isso doi muito,
+         nunca consegui fazer algo 100% original que fosse bom, eu sou uma falha. E talvez eu realmente só queira atenção,
+         mas se eu quero é porque eu nunca tive da forma como eu gostaria, Eu só espero melhorar, pq doi muito me sentir mal por não ser o suficiente
+         */
